@@ -106,7 +106,7 @@ body {
     
     background-color:#A7216226 ;
     border-radius: 300px 300px 0px 0px;
-    row-gap: 30px;
+    
    
 
 
@@ -141,4 +141,21 @@ padding: 70px 75px 0 75px;
 
 
 
+}
+.free-trail{
+    display: flex;
+
+height: 320px;
+border-radius: 8px;
+background-color: #2727270D;
+margin-left: 66px;
+margin-right:305px ;
+margin-top: 100px;
+margin-bottom: 100px;
+
+}
+.free-trail-sector{
+    display: flex;
+    justify-content: space-between;
+    
 }
