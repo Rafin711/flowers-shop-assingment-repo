@@ -83,31 +83,31 @@ body {
 .feature-info-container {
     display: flex;
     justify-content: space-around;
-    
-    
-  
+
+
+
 
 
 }
 
 .feature-info {
     text-align: center;
-    gap:30px;
+    gap: 30px;
 
 }
 
 #pink {
     width: 280px;
-     height: 380px;
-     padding: 108px 75px 0px 75px;
-     height: 363px;
+    height: 380px;
+    padding: 108px 75px 0px 75px;
+    height: 363px;
 
-  
-    
-    background-color:#A7216226 ;
+
+
+    background-color: #A7216226;
     border-radius: 300px 300px 0px 0px;
-    
-   
+
+
 
 
 
@@ -120,42 +120,142 @@ body {
     width: 330px;
     height: 300px;
     padding: 120px 50px 50px 50px;
-    
+
     height: 450;
-  
-   background-color: #0597A026;
-   border-radius: 300px 300px 0px 0px;
- 
+
+    background-color: #0597A026;
+    border-radius: 300px 300px 0px 0px;
+
 
 }
 
 #yellow {
     width: 250px;
-height: 380px;
-background-color: #477D1126;
-border-radius: 300px 300px 0px 0px;
-width:300px;
-height: 400px;
-padding: 70px 75px 0 75px;
+    height: 380px;
+    background-color: #477D1126;
+    border-radius: 300px 300px 0px 0px;
+    width: 300px;
+    height: 400px;
+    padding: 70px 75px 0 75px;
 
 
 
 
 }
-.free-trail{
+
+.trail {
+    padding: 300px 240px 300px 240px;
+}
+
+.trail-section {
     display: flex;
+    background-color: #2727270D;
+    justify-content: space-between;
+    width: 200px 200px;
+}
 
-height: 320px;
-border-radius: 8px;
-background-color: #2727270D;
-margin-left: 66px;
-margin-right:305px ;
-margin-top: 100px;
-margin-bottom: 100px;
+.trail-caption {}
+
+.hot {
+    display: flex;
+    align-items: center;
+    background-color: #E554730D;
+    background-position: bottom right;
+    padding: 100px 420px 100px 420px;
+
+
 
 }
-.free-trail-sector{
+
+.hot-deal-title {
+    color: #272727;
+
+    font-size: 40px;
+
+    font-weight: 800;
+
+}
+
+.text-primary {
+    color: #E55473;
+
+}
+
+.hot-deal-description {
+
+
+    flex-direction: column;
+    color: #27272799;
+
+
+    font-size: 18px;
+
+
+}
+
+.btn-primary {
+
+    padding: 20px 43px;
+
+    gap: 10px;
+}
+
+.hot-profile-pic {
+    margin-left: 150px;
+
+}
+
+.insta-title {
+    text-align: center;
+    color: #272727;
+    font-size: 40px;
+}
+
+.insta-description {
+    text-align: center;
+    flex-direction: column;
+    color: #27272799;
+    font-size: 18px;
+
+}
+
+.insta-part {
     display: flex;
     justify-content: space-between;
+    padding: 50px 50px 130px 50px;
+    row-gap: 25px;
+
+}
+.header-item{
+    text-align: center;
+    background-image: url('../flower-shop-assignment-main/Rectangle\ 9.png');
+    height: 450px;
+    margin-right: 240px;
+    margin-left: 240px;
+}
+
+
+
+.header{
+
+
+height: 500px;
+}
+
+
+  
+
+.header-btn-info {
+    text-align: center;
+    padding: 230px 300px 200px 270px;
+        
+}
+.email-info{
+    
+    width: 650px;
+    height:64px ;
+}
+.header-title{
+    color:  #272727;
     
 }
