@@ -107,13 +107,6 @@ body {
     background-color: #A7216226;
     border-radius: 300px 300px 0px 0px;
 
-
-
-
-
-
-
-
 }
 
 #red {
@@ -138,32 +131,15 @@ body {
     height: 400px;
     padding: 70px 75px 0 75px;
 
-
-
-
 }
-
-.trail {
-    padding: 300px 240px 300px 240px;
+.hot-deal{
+    background-color: #E554730D;
 }
-
-.trail-section {
-    display: flex;
-    background-color: #2727270D;
-    justify-content: space-between;
-    width: 200px 200px;
-}
-
-.trail-caption {}
-
-.hot {
+.hot{
     display: flex;
     align-items: center;
-    background-color: #E554730D;
-    background-position: bottom right;
-    padding: 100px 420px 100px 420px;
-
-
+    background-position: bottom right, top left;
+    padding: 100px 430px 100px 430px;
 
 }
 
@@ -227,35 +203,38 @@ body {
 
 }
 .header-item{
-    text-align: center;
+    align-items: center;
     background-image: url('../flower-shop-assignment-main/Rectangle\ 9.png');
     height: 450px;
-    margin-right: 240px;
     margin-left: 240px;
+    margin-right: 260px;
+    
+    
 }
-
-
-
 .header{
+    height: 300px;
 
-
-height: 500px;
 }
-
-
-  
 
 .header-btn-info {
     text-align: center;
-    padding: 230px 300px 200px 270px;
+     
         
 }
 .email-info{
     
     width: 650px;
-    height:64px ;
+    height:60px ;
 }
 .header-title{
-    color:  #272727;
-    
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
 }
+.header-description{
+    text-align: center;
+}
+
