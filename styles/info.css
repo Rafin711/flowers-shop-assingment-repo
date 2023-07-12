@@ -11,9 +11,6 @@ body {
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 700;
-
-
-
 }
 
 .head {
@@ -47,7 +44,6 @@ body {
 .banner-description {
     width: 700px;
     flex-direction: column;
-
 }
 
 .feature {
@@ -57,43 +53,28 @@ body {
 .section-title {
     text-align: center;
     color: #272727;
-
-
     font-size: 40px;
-
     font-weight: 800;
-
 }
 
 .section-description {
     display: flex;
-
     flex-direction: column;
     color: #27272799;
     text-align: center;
-
     font-size: 18px;
-
     font-weight: 400;
     line-height: 30px;
-
-
 }
 
 .feature-info-container {
     display: flex;
     justify-content: space-around;
-
-
-
-
-
 }
 
 .feature-info {
     text-align: center;
     gap: 30px;
-
 }
 
 #pink {
@@ -101,25 +82,19 @@ body {
     height: 380px;
     padding: 108px 75px 0px 75px;
     height: 363px;
-
-
-
     background-color: #A7216226;
     border-radius: 300px 300px 0px 0px;
-
+    box-shadow: 5px 5px;
 }
 
 #red {
     width: 330px;
     height: 300px;
     padding: 120px 50px 50px 50px;
-
     height: 450;
-
     background-color: #0597A026;
     border-radius: 300px 300px 0px 0px;
-
-
+    box-shadow: 5px 5px;
 }
 
 #yellow {
@@ -130,55 +105,44 @@ body {
     width: 300px;
     height: 400px;
     padding: 70px 75px 0 75px;
+    box-shadow: 5px 5px;
+}
 
-}
-.hot-deal{
+.hot-deal {
     background-color: #E554730D;
+    margin-top: 100px;
 }
-.hot{
+
+.hot {
     display: flex;
     align-items: center;
     background-position: bottom right, top left;
     padding: 100px 430px 100px 430px;
-
 }
 
 .hot-deal-title {
     color: #272727;
-
     font-size: 40px;
-
     font-weight: 800;
-
 }
 
 .text-primary {
     color: #E55473;
-
 }
 
 .hot-deal-description {
-
-
     flex-direction: column;
     color: #27272799;
-
-
     font-size: 18px;
-
-
 }
 
 .btn-primary {
-
     padding: 20px 43px;
-
     gap: 10px;
 }
 
 .hot-profile-pic {
     margin-left: 150px;
-
 }
 
 .insta-title {
@@ -202,39 +166,92 @@ body {
     row-gap: 25px;
 
 }
-.header-item{
+
+.header-item {
     align-items: center;
     background-image: url('../flower-shop-assignment-main/Rectangle\ 9.png');
     height: 450px;
     margin-left: 240px;
     margin-right: 260px;
-    
-    
+
+
 }
-.header{
+
+.header {
     height: 300px;
 
 }
 
 .header-btn-info {
     text-align: center;
-     
-        
+
+
 }
-.email-info{
-    
+
+.email-info {
+
     width: 650px;
-    height:60px ;
+    height: 60px;
 }
-.header-title{
+
+.header-title {
     color: #272727;
-text-align: center;
-font-family: Lato;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
 }
-.header-description{
+
+.header-description {
     text-align: center;
 }
 
+.flower {
+    align-items: center;
+    background-color: #111010;
+    width: 1800px;
+    height: 300px;
+    margin-top: 130px;
+    padding: 130px 625px 130px 625px;
+}
+
+.flower-title {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.flower-description {
+    flex-direction: column;
+    color: #FFFFFFE5;
+    font-size: 18px;
+}
+
+.flower-footer {
+    color: #FFFFFF66;
+    font-size: 16px;
+}
+
+.shp-btn {
+    color: #FFFFFF;
+}
+
+.bonus-section {
+    padding: 50px 200px 50px 200px;
+}
+
+.bonus {
+    height: 500px;
+    background-color: #2727270D;
+
+}
+
+.bn-btn {
+    background-color: #E55473;
+    color: #FFFFFF;
+}
+
+.fl-btn {
+    color: #E55473;
+}
